@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    
+}
+.backgroundCont{
+  background: linear-gradient(120deg, rgba(255, 255, 255, 1) 15%, chocolate 90%);
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: chocolate;
+}
+.logo img{
+  max-width: 30%;
+  padding: 0em;
+}
+a{
+ padding-left: 1em;
+ padding-right: 2em;
+ color: black;
+ text-decoration: none;
+}
+.section{
+  padding-top: 2em;
+}
+.welcomeInfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3{
+margin-left: 1em;
+}
+section{
+  background: linear-gradient(120deg, rgba(255, 255, 255, 1));
+}
+.priceHeading{
+  font-size: 20px;
+  text-align: center;
+ padding-top: 2em;
+}
+.priceCont{
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-bottom: 5em;
+  margin-top: 2em;
+  background-color: chocolate;
+  border-radius: 5px;
+}
+.box {
+  margin-top: 2em;
+  border-radius: 30px;
+  padding: 2em;
+}
+.imgone{
+max-width: 30%;
+margin-left: 6em;
+}
+.imgtwo{
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.imgthree{
+  padding-left: 2em;
+  padding-right: 1em;
+}
+.cofeeName {
+  text-align: center;
+  padding-top: 2em;
+}
+.shadowBox {
+  box-shadow: 0px 0px 5px 3px gray;
+  border-radius: 10px;
+  background-color: white;
+  padding-top: 1em;
+}
+.boxess {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3em;
+  gap: 1em;
+}
+
+footer{
+  background: linear-gradient(120deg, chocolate 0%, rgb(255, 255, 255) 95%);
+  padding: 5em;
+  display: flex;
+  justify-content: space-between;
+}
+/* About Us Styles */
+.backgroundContW{
+  background-color:rgb(255, 255, 255) ;
+}
+.aboutcontainer{
+  display: flex;
+  justify-content: center;
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+form{
+  background: linear-gradient(120deg, rgba(255, 255, 255, 1) 15%, chocolate 90%);
+  box-shadow: 0px 0px 5px 3px gray;
+
+padding-top: 2em;
+padding-bottom: 2em;
+padding-left: 1em;
+  border-radius: 5px;
+  border: 2px solid brown;
+  margin-right: 30em;
+  margin-left: 30em;
+}
+
+/* form {
+  background-color: #057DF4;
+  padding: 1em 1em;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  border: 1px solid #057DF4;
+} */
